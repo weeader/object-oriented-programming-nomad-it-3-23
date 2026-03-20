@@ -16,16 +16,16 @@ public class Gamerules {
                 random.nextInt(4)
         );
 
-        System.out.println("Turtle has been spawn");
+        System.out.println("Turtle spawned");
         field.printField(turtle);
 
         while (true) {
 
-            System.out.println("1 - forward | 2 - right | 3 - left | 0 - exit");
+            System.out.println("1-forward, 2-right, 3-left, 0-exit");
             int choice = scanner.nextInt();
 
             if (choice == 0) {
-                System.out.println("See you next time");
+                System.out.println("thats all");
                 break;
             }
 

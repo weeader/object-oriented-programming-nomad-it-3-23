@@ -12,7 +12,7 @@ public class Task3 {
             numbers.add(num);
         }
 
-        System.out.println("beofre changes");
+        System.out.println("before changes");
         System.out.println(numbers);
 
         for (int i = 0; i < numbers.size(); i++){
